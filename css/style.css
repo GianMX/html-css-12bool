@@ -1,0 +1,15 @@
+/* GENERAL STYLE RULES */
+.container {
+  text-align: center;
+}
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+[class*="col-"] {
+  position: relative;
+}
+/* END GENERAL STYLE RULES */
