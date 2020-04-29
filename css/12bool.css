@@ -16,6 +16,23 @@
 }
 /*  END DEBUG */
 
+/* GENERAL RULES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* END GENERAL RULES */
+
 /* COLUMN RULES */
 [class*="col-"]
 {float: left;}
@@ -47,20 +64,3 @@
 .offset-11 { margin-left: calc((100%/12) * 11)}
 /* END OFFSET */
 /* END FRAMEWORK */
-
-/* GENERAL RULES */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.container::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-/* END GENERAL RULES */
