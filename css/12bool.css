@@ -9,7 +9,7 @@
   height: 180px;
   padding: 10px;
 }
-.container [class*="col-"]> .container [class*="col-"] {
+.debug [class*="col-"]> .container [class*="col-"] {
   background-color: #f07f80;
   border: 1px solid white;
   height: 160px;
